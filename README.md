@@ -54,7 +54,7 @@ ai_web_scraper/
 ├── parse.py         # LLM-based parsing logic
 ├── requirements.txt
 └── .gitignore
-
+```
 ---
 
 ## ⚙️ Prerequisites (Important)
@@ -72,6 +72,14 @@ https://ollama.com
 ```bash
 ollama pull llama3.2:1b
 Start Ollama service
+```
 
+### Installation
+```bash
 pip install -r requirements.txt
+```
+### Run the Application
+```bash
 streamlit run main.py
+```
+

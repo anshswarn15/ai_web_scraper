@@ -46,12 +46,14 @@ It reflects applied problem-solving, not just model usage.
 ---
 
 ## 📂 Project Structure
+
+```text
 ai_web_scraper/
-│── main.py          # Streamlit application
-│── scrape.py        # Web scraping & DOM processing
-│── parse.py         # LLM-based parsing logic
-│── requirements.txt
-│── .gitignore
+├── main.py          # Streamlit application
+├── scrape.py        # Web scraping & DOM processing
+├── parse.py         # LLM-based parsing logic
+├── requirements.txt
+└── .gitignore
 
 ---
 
